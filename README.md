@@ -1,6 +1,6 @@
 ### Version_Control
 
-echo "# Version Control: An Essential Tool for Modern Software Development
+## Version Control: An Essential Tool for Modern Software Development
 
 Version control is a vital system used to manage changes in files, documents, and code over time. Its primary function is to maintain a comprehensive history of changes, manage multiple versions of the same file, and coordinate work among team members. This functionality is crucial for maintaining a healthy codebase and supporting collaboration across various IT resources, including code, images, and documentation.
 
