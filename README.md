@@ -47,7 +47,11 @@ This command automatically applies the changes specified in the diff file to the
 " > version_control_thesis.md
 
 
-
+-  Initialize Git Repository (if not already initialized): **git init**
+- Add the Markdown File to the Staging Area: **git add version_control_thesis.md**
+- Commit the Changes: **git commit -m "Add version control thesis document"**
+- Add Remote Repository URL (Replace with your repository URL): **git remote add origin https://github.com/your-username/your-repository.git**
+- Push Changes to GitHub: **git push -u origin main**
 
 
 
