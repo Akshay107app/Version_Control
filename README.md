@@ -28,7 +28,7 @@ Version control is a vital system used to manage changes in files, documents, an
 ## Advanced Tools and Techniques
 
 - **Diff**: A command-line tool used to identify differences between two files. It is essential for understanding what changes have been made and where.
-  
+
 - **Wdiff**: Similar to Diff, Wdiff works line by line but provides more granularity by focusing on word-level changes.
   
 - **Patch**: This tool applies the changes recorded in a diff file to another file. While Diff generates the differences between files, Patch applies these differences to the original files, facilitating updates and modifications.
@@ -53,6 +53,10 @@ This command automatically applies the changes specified in the diff file to the
 - Add Remote Repository URL (Replace with your repository URL): **git remote add origin.(https://github.com/Akshay107app)**
 - Push Changes to GitHub: **git push -u origin main**
 
+## Version Control Systems
+- A version control system keeps track of the changes that we make to our files.
+- By VCS we know & track when the changes were made & who made it.
 
+In an organisation dealing with softwares, a Vcs is a key part of managing the code, **Files are usually Organised in Repositries** 
 
 
