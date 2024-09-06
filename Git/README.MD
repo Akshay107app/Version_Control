@@ -14,33 +14,34 @@ git --version
 ```
 - This will display the currently installed version of Git if it is present on your computer.
 
-3. Installing Git (Windows Example)
-Steps to Install Git on Windows:
-Visit the official Git website for Windows.
-Download the installer (ensure you keep the license agreement as default).
-During installation, choose to install Git with the command line interface.
-Select OpenSSL for security, and enable MinTTY as the terminal emulator.
-You can also enable options 1 and 2 as suggested.
-4. Git Directory and Working Tree
-Working Tree: The working tree is the space where developers work on files. It contains all files currently being tracked by Git. Think of it as a workbench where modifications to files happen.
+- Installing Git (Windows Example)
+## Steps to Install Git on Windows:
+- Visit the official Git website for Windows.
+- Download the installer (ensure you keep the license agreement as default).
+- During installation, choose to install Git with the command line interface.
+- Select OpenSSL for security, and enable MinTTY as the terminal emulator.
+- You can also enable options 1 and 2 as suggested.
 
-Git Directory: The Git directory acts as the storage for a project’s history. It stores the database of changes and is responsible for tracking all versions of the project. It can be thought of as the repository’s core, keeping track of all file snapshots.
+## Git Directory and Working Tree
+** Working Tree ** : The working tree is the space where developers work on files. It contains all files currently being tracked by Git. Think of it as a workbench where modifications to files happen.
 
-5. Staging Area (Index)
-The staging area (also called the index) is an intermediate area where Git stores updates before committing them. Files placed in this area are ready for inclusion in the next commit.
-6. Git Commands:
-git status: This command provides details about the working tree, such as pending changes and the current state of tracked and untracked files.
+** Git Directory **: The Git directory acts as the storage for a project’s history. It stores the database of changes and is responsible for tracking all versions of the project. It can be thought of as the repository’s core, keeping track of all file snapshots.
 
-git commit: Used to save changes in the repository. A commit message is required, and Git will abort the process if an empty message is provided. Commit messages should be concise yet informative, containing a short description (ideally under 50 characters), followed by optional additional details within 72-character lines.
+## Staging Area (Index)
+- The staging area (also called the index) is an intermediate area where Git stores updates before committing them. Files placed in this area are ready for inclusion in the next commit.
+## Git Commands:
+** git status ** : This command provides details about the working tree, such as pending changes and the current state of tracked and untracked files.
 
-7. File States in Git
-Git projects have three main components:
+**git commit** : Used to save changes in the repository. A commit message is required, and Git will abort the process if an empty message is provided. Commit messages should be concise yet informative, containing a short description (ideally under 50 characters), followed by optional additional details within 72-character lines.
 
-Git Directory: Contains all the history of tracked files.
-Working Tree: Represents the current state of the project, including all files that have been changed but not yet committed.
-Staging Area: Holds the changes that are ready to be included in the next commit.
-8. Tracked and Untracked Files
-Tracked Files: Files that Git is monitoring. These files can be in one of the three states:
+## File States in Git
+- Git projects have three main components:
+
+- ** Git Directory **: Contains all the history of tracked files.
+- **Working Tree** : Represents the current state of the project, including all files that have been changed but not yet committed.
+- ** Staging Area ** : Holds the changes that are ready to be included in the next commit.
+## Tracked and Untracked Files
+- ** Tracked Files ** : Files that Git is monitoring. These files can be in one of the three states:
 Modified: The file has been changed but not yet staged.
 Staged: The file has been marked for the next commit.
 Committed: The file has been saved into the repository’s history.
