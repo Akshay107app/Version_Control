@@ -67,4 +67,4 @@ git --version
 - **Working Tree** : Represents the current state of your project, including any changes made since the last commit.
 - **Staging Area** : Holds the changes that are ready to be committed to the repository.
 
-https://github.com/Akshay107app/Version_Control/blob/main/Git/assets/git%20stagging.png?raw=true
+![Screenshot 2024-08-22 100744](https://github.com/Akshay107app/Version_Control/blob/main/Git/assets/git%20stagging.png?raw=true)
