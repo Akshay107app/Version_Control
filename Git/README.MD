@@ -37,29 +37,32 @@ git --version
 ## File States in Git
 - Git projects have three main components:
 
-- ** Git Directory **: Contains all the history of tracked files.
+- **Git Directory**: Contains all the history of tracked files.
 - **Working Tree** : Represents the current state of the project, including all files that have been changed but not yet committed.
-- ** Staging Area ** : Holds the changes that are ready to be included in the next commit.
+- **Staging Area** : Holds the changes that are ready to be included in the next commit.
 ## Tracked and Untracked Files
-- ** Tracked Files ** : Files that Git is monitoring. These files can be in one of the three states:
-Modified: The file has been changed but not yet staged.
-Staged: The file has been marked for the next commit.
-Committed: The file has been saved into the repository’s history.
-Untracked Files: Files that are not being tracked by Git. These files have not been added to the project’s repository yet.
-9. Modifying, Staging, and Committing Files
-Modifying Files: When you modify a tracked file, it enters the "modified" state.
-Staging Changes: After modifying a file, it needs to be staged. This step prepares the changes to be included in the next commit.
-Committing Changes: Once files are staged, you can commit them to save a snapshot of your project, including all changes made since the last commit.
-10. Interactive IDE Integration with Git
-Some Integrated Development Environments (IDEs) come with built-in Git interfaces, making it easier to interact with Git through graphical tools instead of command-line operations.
+- **Tracked Files** : Files that Git is monitoring. These files can be in one of the three states:
+- **Modified** : The file has been changed but not yet staged.
+- **Staged** : The file has been marked for the next commit.
+- **Committed** : The file has been saved into the repository’s history.
+## Untracked Files:
+- Files that are not being tracked by Git. These files have not been added to the project’s repository yet.
 
-11. Git Status Command
-Purpose: The git status command gives you information about the working tree and pending changes. It helps you keep track of what files are staged, modified, or untracked.
-12. Writing Commit Messages
-Format of Commit Messages: A commit message should contain a short summary (preferably under 50 characters), followed by a blank line, and then a detailed description (less than 72 characters per line). This ensures clarity and consistency in the project's history.
-13. Main Sections in a Git Project
-A Git project typically has three primary sections:
+## Modifying, Staging, and Committing Files
+- **Modifying Files** : When you modify a tracked file, it enters the "modified" state.
+- **Staging Changes** : After modifying a file, it needs to be staged. This step prepares the changes to be included in the next commit.
+- **Committing Changes**: Once files are staged, you can commit them to save a snapshot of your project, including all changes made since the last commit.
 
-Git Directory: Stores all the history of the project, including all versions of files.
-Working Tree: Represents the current state of your project, including any changes made since the last commit.
-Staging Area: Holds the changes that are ready to be committed to the repository.
+## Interactive IDE Integration with Git
+- Some Integrated Development Environments (IDEs) come with built-in Git interfaces, making it easier to interact with Git through graphical tools instead of command-line operations.
+
+## Git Status Command
+- Purpose: The git status command gives you information about the working tree and pending changes. It helps you keep track of what files are staged, modified, or untracked.
+## Writing Commit Messages
+- Format of Commit Messages: A commit message should contain a short summary (preferably under 50 characters), followed by a blank line, and then a detailed description (less than 72 characters per line). This ensures clarity and consistency in the project's history.
+## Main Sections in a Git Project
+- A Git project typically has three primary sections:
+
+- **Git Directory**:Stores all the history of the project, including all versions of files.
+- **Working Tree** : Represents the current state of your project, including any changes made since the last commit.
+- **Staging Area** : Holds the changes that are ready to be committed to the repository.
