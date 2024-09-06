@@ -41,7 +41,7 @@ git --version
 - **Working Tree** : Represents the current state of the project, including all files that have been changed but not yet committed.
 - **Staging Area** : Holds the changes that are ready to be included in the next commit.
 ### Tracked and Untracked Files
--## Tracked Files** : Files that Git is monitoring. These files can be in one of the three states:
+## Tracked Files : Files that Git is monitoring. These files can be in one of the three states:
 - **Modified** : The file has been changed but not yet staged.
 - **Staged** : The file has been marked for the next commit.
 - **Committed** : The file has been saved into the repository’s history.
