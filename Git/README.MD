@@ -67,4 +67,3 @@ git --version
 - **Working Tree** : Represents the current state of your project, including any changes made since the last commit.
 - **Staging Area** : Holds the changes that are ready to be committed to the repository.
 
-"C:\Users\aappa\OneDrive\Pictures\Screenshots\Screenshot 2024-09-02 164758.png"
