@@ -1,17 +1,18 @@
 ## What is Git and Why is it Powerful?
-Git as a Distributed VCS (Version Control System): Git is a distributed version control system, meaning every developer has a full copy of the repository, enabling decentralized collaboration without needing constant access to a central server.
+- Git as a Distributed VCS (Version Control System): Git is a distributed version control system, meaning every developer has a full copy of the repository, enabling decentralized collaboration without needing constant access to a central server.
 
-Flexibility in Project Sizes: You can use Git for projects ranging from small, single-developer efforts to massive projects with thousands of contributors.
+- Flexibility in Project Sizes: You can use Git for projects ranging from small, single-developer efforts to massive projects with thousands of contributors.
 
-2. Checking Git Installation
+## Checking Git Installation
 Git Installation Availability: Git is available for all major operating systems, such as Windows, macOS, and Linux.
 
 Verifying Git Installation: To check if Git is installed on your machine, open a terminal (or command prompt on Windows) and run:
 
 css
-Copy code
+```
 git --version
-This will display the currently installed version of Git if it is present on your computer.
+```
+- This will display the currently installed version of Git if it is present on your computer.
 
 3. Installing Git (Windows Example)
 Steps to Install Git on Windows:
