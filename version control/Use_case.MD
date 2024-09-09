@@ -15,4 +15,11 @@
 - **Tracked** : A file’s changes are recorded
 - **Untracked** : A file’s changes are not recorded
 - **Version control systems (VCS)** : A tool to safely test code before releasing it, allow multiple people collaborate on the same coding projects together, and stores the history of that code and configuration
-
+- **Branch** : An independent line of development, allowing for concurrent updates to the project.
+- **Commit ID** : A unique identifier assigned to each commit for referencing purposes.
+- **Fast-forward merge** : A merge that moves the branch pointer forward when there is no conflicting commit history.
+- **Head** : The reference to the latest commit on the current branch.
+- **Master** : The default branch in Git, usually representing the main, stable version of the project.
+- **Merge conflict** : A conflict that occurs when two commits change the same part of a file, requiring manual intervention to resolve.
+- **Rollback** : The act of reverting a repository to a previous commit.
+- **Three-way merge** : A merge that involves comparing the two heads and their common ancestor to resolve differences.
