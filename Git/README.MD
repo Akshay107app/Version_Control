@@ -34,7 +34,8 @@ git --version
 
 **git commit** : Used to save changes in the repository. A commit message is required, and Git will abort the process if an empty message is provided. Commit messages should be concise yet informative, containing a short description (ideally under 50 characters), followed by optional additional details within 72-character lines.
 
-https://devmountain.com/blog/git-vs-github-whats-the-difference/
+![Screenshot 2024-08-22 100744](https://devmountain.com/blog/git-vs-github-whats-the-difference/)
+
 
 ## File States in Git
 - Git projects have three main components:
