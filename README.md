@@ -25,6 +25,7 @@ Version control is a vital system used to manage changes in files, documents, an
 - **Switch to a branch**: \`git checkout [branch-name]\`
 - **Merge a branch**: \`git merge [branch-name]\`
 
+
 ## Advanced Tools and Techniques
 
 - **Diff**: A command-line tool used to identify differences between two files. It is essential for understanding what changes have been made and where.
