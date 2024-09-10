@@ -22,6 +22,9 @@ git --version
 - Select OpenSSL for security, and enable MinTTY as the terminal emulator.
 - You can also enable options 1 and 2 as suggested.
 
+
+![Screenshot 2024-08-22 100744](https://www.c-sharpcorner.com/article/git-and-github-version-control-local-and-remote-repository/Images/Git%20And%20Github%20Version%20Control.png)
+
 ## Git Directory and Working Tree
 ** Working Tree ** : The working tree is the space where developers work on files. It contains all files currently being tracked by Git. Think of it as a workbench where modifications to files happen.
 
