@@ -88,7 +88,7 @@ Example: git commit -m "Your commit message"
 Example: git commit -a -m "Commit message"
 
 
-##Viewing a Specific Commit
+## Viewing a Specific Commit
 - If you want to see the details of a specific commit using the commit ID:
 
 - 1. git show <commit-id>: This command shows detailed information about the specific commit, including the patch (changes made).
