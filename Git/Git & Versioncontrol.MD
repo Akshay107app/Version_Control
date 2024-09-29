@@ -180,20 +180,18 @@ While merging combines branches by creating a new commit, rebasing rewrites the 
 
 ---
 
-## 6. Common Git Workflow and Best Practices
+## 6. Workflow & Best Practices
+**Common Workflow**:
+- Pull, merge, and push changes in sequence to maintain up-to-date code.
 
-### Typical Workflow:
-1. **Pull**: Always pull the latest changes from the remote repository before starting new work.
-2. **Branch**: Create a new branch for each feature or bug fix.
-3. **Merge**: Merge completed work back into the `master` or `main` branch. Resolve conflicts if they arise.
-4. **Push**: Push your merged changes to the remote repository for others to access.
+**Collaboration**:
+- Always synchronize your branches and avoid large changes that modify many files.
 
-### Best Practices:
-- Keep your changes small and focused to reduce merge conflicts.
-- Write clear and concise commit messages that describe the purpose of the change.
-- Use feature branches for large changes and periodically merge updates from the `master` branch into the feature branch to ensure compatibility.
+**Feature Branching**:
+- Use feature branches for large updates, regularly merging changes from the `master` branch to ensure compatibility.
 
----
+**Commit Messages**:
+- Writing clear and meaningful commit messages is crucial for tracking changes effectively.
 
 ## 7. Additional Tips for Version Control
 
