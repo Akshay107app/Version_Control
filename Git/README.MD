@@ -76,40 +76,46 @@ git --version
 ![Screenshot 2024-08-22 100744](https://github.com/Akshay107app/Version_Control/blob/main/Git/assets/git%20stagging.png?raw=true)
 
 
-# Git Commit with Flags
+## Git Commit with Flags
 - If you want to make a small change and skip the staging step, you can use specific flags in the git commit command:
 
--m Flag: Allows you to directly add a commit message in the command itself without opening the default editor.
+- 1.-m Flag: Allows you to directly add a commit message in the command itself without opening the default editor.
 
 Example: git commit -m "Your commit message"
--a Flag: Automatically stages all tracked files before the commit, which eliminates the need for git add for modified files.
+
+- 2. -a Flag: Automatically stages all tracked files before the commit, which eliminates the need for git add for modified files.
 
 Example: git commit -a -m "Commit message"
-Viewing a Specific Commit
-If you want to see the details of a specific commit using the commit ID:
 
-git show <commit-id>: This command shows detailed information about the specific commit, including the patch (changes made).
-Using the -P Flag in Git Commands
--P Flag: Stands for "Patch." It allows you to view changes in patch format, showing differences between file versions.
-git log with -P: You can use git log -p to display the commit history with corresponding patches (i.e., detailed diffs of changes).
-Git Checkout
-The git checkout command allows you to:
 
-Switch between different branches or restore files.
-Revert changes made to a file back to the state in the previous commit.
-Purpose: Restores files to the latest committed version, undoing any changes made to files before they are staged.
+##Viewing a Specific Commit
+- If you want to see the details of a specific commit using the commit ID:
 
-Example: git checkout <branch_name> or git checkout <file_name>.
-Git Amend
-git commit --amend: This allows you to modify or update the most recent commit. It overwrites the previous commit, including the message or changes.
-Git Revert
-git revert: Creates a new commit that undoes the changes made in a specific commit, without deleting the history. It rolls back the changes but keeps a record of the original commit.
-Key Terms:
-Patch (-P flag): A formatted difference between two versions of a file. It shows line-by-line changes in the code.
+- 1. git show <commit-id>: This command shows detailed information about the specific commit, including the patch (changes made).
 
-git checkout: A command to switch between branches or restore files to an earlier version based on the last commit.
 
-git commit --amend: A command to overwrite or amend the most recent commit, allowing modification of the commit message or included files.
+## Using the -P Flag in Git Commands
+- -P Flag: Stands for "Patch." It allows you to view changes in patch format, showing differences between file versions.
+- git log with -P: You can use git log -p to display the commit history with corresponding patches (i.e., detailed diffs of changes).
 
-git revert: A command to create a new commit that undoes changes from a previous commit while keeping the commit history intact.
+
+## Git Checkout
+- The git checkout command allows you to:
+# Switch between different branches or restore files.
+# Revert changes made to a file back to the state in the previous commit.
+- Purpose: Restores files to the latest committed version, undoing any changes made to files before they are staged.
+- Example: git checkout <branch_name> or git checkout <file_name>.
+
+## Git Amend
+- git commit --amend: This allows you to modify or update the most recent commit. It overwrites the previous commit, including the message or changes.
+## Git Revert
+- git revert: Creates a new commit that undoes the changes made in a specific commit, without deleting the history. It rolls back the changes but keeps a record of the original commit.
+## Key Terms:
+- Patch (-P flag): A formatted difference between two versions of a file. It shows line-by-line changes in the code.
+
+- git checkout: A command to switch between branches or restore files to an earlier version based on the last commit.
+
+- git commit --amend: A command to overwrite or amend the most recent commit, allowing modification of the commit message or included files.
+
+- git revert: A command to create a new commit that undoes changes from a previous commit while keeping the commit history intact.
 
