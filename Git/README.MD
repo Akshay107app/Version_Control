@@ -256,7 +256,7 @@ git remote add origin <remote-url>
 
 # Push the changes to GitHub
 git push -u origin master
-```
+
 # Initialize the git repository (if not already done)
 git init
 
