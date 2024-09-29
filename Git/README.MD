@@ -123,6 +123,34 @@ Example: git commit -a -m "Commit message"
 - Definition: A branch in Git is a pointer to a specific commit. The default branch when a new repository is initialized is called the master branch.
 - Purpose: Branches enable developers to work on changes without disrupting the current working state. By creating a new branch, experimentation is possible without breaking existing functionality.
 
+## 1. Branching in Git
+
+### What is a Branch?
+A branch in Git is essentially a pointer to a specific commit. The default branch that Git creates when initializing a new repository is called the `master` (or `main` in modern repositories).  
+Branching allows developers to work on different features or fixes without affecting the main project.
+
+### Why Use Branches?
+Branches provide an isolated environment where changes can be made, tested, and reviewed without disrupting the current working state. This enables safe experimentation and parallel development.
+
+### Common Branch Commands:
+- `git branch` – Lists, creates, or deletes branches.
+- `git checkout <branch_name>` – Switches between branches.
+- `git checkout -b <new_branch>` – Creates and switches to a new branch in one command.
+
+## 2. Merging Branches
+
+### What is Merging?
+Merging is the process of combining two branches into one. Git integrates the data and history from separate branches to maintain a unified codebase.
+
+### Types of Merge:
+- **Fast-Forward Merge**: Used when the current branch is directly ahead of the target branch, simply moving the pointer forward.
+- **Three-Way Merge**: Used when there is a divergence between the branches, requiring Git to create a new commit that combines both histories.
+
+### Handling Merge Conflicts:
+When overlapping changes occur, Git may not know how to merge them automatically, triggering a merge conflict. Developers must manually resolve the conflict by choosing which changes to keep.  
+Use `git merge --abort` to cancel the merge process and reset the working directory to the state before the merge started.
+
+
 # Commands:
 - git branch (to list, create, and delete branches).
 - git checkout (to switch branches by updating the working tree to match the selected branch).
